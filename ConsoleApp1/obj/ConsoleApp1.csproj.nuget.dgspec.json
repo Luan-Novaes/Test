@@ -1,28 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\v-luanca\\source\\repos\\Test6\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "C:\\Users\\v-luanca\\Source\\Repos\\Test\\ConsoleApp1\\ConsoleApp1.csproj": {}
   },
   "projects": {
-    "c:\\Users\\v-luanca\\source\\repos\\Test6\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "C:\\Users\\v-luanca\\Source\\Repos\\Test\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\v-luanca\\source\\repos\\Test6\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "C:\\Users\\v-luanca\\Source\\Repos\\Test\\ConsoleApp1\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "c:\\Users\\v-luanca\\source\\repos\\Test6\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectPath": "C:\\Users\\v-luanca\\Source\\Repos\\Test\\ConsoleApp1\\ConsoleApp1.csproj",
         "packagesPath": "C:\\Users\\v-luanca\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\v-luanca\\source\\repos\\Test6\\ConsoleApp1\\obj\\",
+        "outputPath": "C:\\Users\\v-luanca\\Source\\Repos\\Test\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\v-luanca\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\v-luanca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://devdiv.pkgs.visualstudio.com/_packaging/vs-impl/nuget/v3/index.json": {}
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -34,7 +39,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -55,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.3.23178.7\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.2.24474.11/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
